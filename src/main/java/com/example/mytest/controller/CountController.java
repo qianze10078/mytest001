@@ -22,6 +22,7 @@ public class CountController {
     @GetMapping("/test1001")
     public String count() {
         System.out.println("hello jack!");
+        System.out.println("hello jack2222!");
         Long increment = stringRedisTemplate.opsForValue().increment("count-people");
         return "有【" + increment + "】人，访问了这个页面";
     }
