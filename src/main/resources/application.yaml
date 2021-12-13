@@ -1,0 +1,4 @@
+spring:
+  redis:
+    host: 101.43.104.40
+    password: Qz19940225##
